@@ -5,3 +5,7 @@
 [node name="drop_shadow" type="Sprite"]
 z_index = -1
 script = ExtResource( 1 )
+
+[node name="timer" type="Timer" parent="."]
+wait_time = 0.1
+[connection signal="timeout" from="timer" to="." method="_on_timer_timeout"]
