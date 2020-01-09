@@ -6,6 +6,8 @@ Script for showing simple drop shadows for furniture and characters without kill
 ### Use
 Just add it as child of a sprite or animated sprite you want to create shadow for. For animated sprites in needs to have static toggled off and has to have animation named "walk". The animation name can be easily changed in code based on your animations. For it to work you have add light sources to "light_sources" group
 
+![](Examples/shadow_example.gif)
+
 ## Random Sprite
 Script to attach to furniture to give them random appearance and rotation. Good for placing stuff to make them look more natural fast
 ### Use
