@@ -31,8 +31,6 @@ func move_shadow():				#move the shadow based on lights
 #adjust the shadow size and alpha 		
 func modify_shadow(dif):
 	var shadow_strength
-	
-	
 	if second_closest != null:		#Adjust the alpha based on relative distance of two closest lights.
 		shadow_strength = 1-(dif/global_position.distance_to(second_closest.global_position))
 	else:							#if there is only one light just change the alpha based on distance to it. 
