@@ -4,7 +4,7 @@ Godot scripts and nodes for android game Barbarian Life. Made for Godot 3.1. Cur
 ## Drop Shadow
 Script for showing simple drop shadows for furniture and characters without killing the performance on phone. 
 ### Use
-Just add it as child of a sprite or animated sprite you want to create shadow for. For animated sprites in needs to have static toggled off and has to have animation named "walk". The animation name can be easily changed in code based on your animations. For it to work you have add light sources to "light_sources" group
+Just add the node as child of a sprite or animated sprite you want to create shadow for. For animated sprites in needs to have static toggled off and has to have animation named "walk". The animation name can be easily changed in code based on your animations. For it to work you have to add all your light sources to "light_sources" group
 
 ![](Examples/shadow_example.gif)
 
