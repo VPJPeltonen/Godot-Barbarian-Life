@@ -1,5 +1,8 @@
 # Godot-Barbarian-Life
-Godot scripts and nodes for android game Barbarian Life. Made for Godot 3.1. Currently there is just a playable web version at https://substandardshrimp.itch.io/barbarian-life
+Godot scripts and nodes for android game Barbarian Life. Made for Godot 3.1. 
+Game is currently in open beta: https://play.google.com/store/apps/details?id=barbarian.life.beta
+
+Also a playable web version with old version of shadows at https://substandardshrimp.itch.io/barbarian-life
 
 ## Drop Shadow
 Script for showing simple drop shadows for furniture and characters without killing the performance on phone. 
